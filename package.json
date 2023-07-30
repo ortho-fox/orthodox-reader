@@ -4,7 +4,7 @@
   "description": "Orthodox NKJV Reader",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && tsc",
+    "build": "next build",
     "start": "next start",
     "generate-mdx": "node --experimental-specifier-resolution=node generate-mdx.js"
   },
