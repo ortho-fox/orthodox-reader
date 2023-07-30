@@ -1,7 +1,13 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "Old Testament": {
+    "type": "separator"
+  },
+  "genesis": "Genesis",
+  "New Testament": {
+    "type": "separator"
+  },
+  "exodus": "Exodus",
   "about": {
     "title": "About",
     "type": "page"
