@@ -21,7 +21,7 @@ const config: DocsThemeConfig = {
         )
       }
       if (title === 'Genesis') {
-        return <>📖 {title}</>
+        return <>{title}</>
       }
       return <>{title}</>
     }

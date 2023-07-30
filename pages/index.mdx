@@ -1,11 +1,46 @@
-# Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+import { useData } from 'nextra/data';
 
-## What is Nextra?
+export const getStaticProps = async ({ params }) => {
+  const baseUrl = process.env.BASE_URL || '';
+  const response = await fetch(`${baseUrl}/books.json`);
+  const data = await response.json();
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+return {
+props: {
+books: data,
+},
+};
+};
 
-## Documentation
+// Rest of your code...
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+export default function Index({ books }) {
+  return (
+    <>
+      <h1>Books of the Bible</h1>
+
+      {books && books.old_testament && (
+        <div>
+          <h3 id="old-testament">Old Testament</h3>
+          <ul>
+            {books.old_testament.map((book) => (
+              <li key={book}>{book}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {books && books.new_testament && (
+        <div>
+          <h3 id="new-testament">New Testament</h3>
+          <ul>
+            {books.new_testament.map((book) => (
+              <li key={book}>{book}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </>
+
+);
+}
