@@ -2,7 +2,6 @@
 import React from 'react';
 import { Analytics } from '@vercel/analytics/react';
 
-
 import { Lora } from 'next/font/google';
 import '../styles/globals.css';
 
