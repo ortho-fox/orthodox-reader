@@ -131,17 +131,6 @@
       "revelation"
     ]
   },
-  "books": {
-    "title": "Books",
-    "type": "page",
-    "theme": {
-      "breadcrumb": false,
-      "footer": false,
-      "sidebar": false,
-      "toc": false,
-      "pagination": false
-    }
-  },
   "about": {
     "title": "About",
     "type": "page",
