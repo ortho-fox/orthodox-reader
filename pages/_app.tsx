@@ -1,5 +1,7 @@
 // pages/_app.tsx
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
+
 
 import { Lora } from 'next/font/google';
 import '../styles/globals.css';
@@ -14,6 +16,7 @@ function MyApp({ Component, pageProps }) {
 
     <main className=''>
       <Component {...pageProps} />
+      <Analytics />
     </main>
 
   );
