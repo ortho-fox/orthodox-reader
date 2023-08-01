@@ -1,0 +1,12 @@
+/* styles/globals.css */
+
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* hiding error overlay so when in dev it leaves me alone */
+nextjs-portal {
+  display: none;
+}

@@ -1,46 +1,43 @@
-import { useData } from 'nextra/data';
+import Features from 'components/Features'
 
-export const getStaticProps = async ({ params }) => {
-  const baseUrl = process.env.BASE_URL || '';
-  const response = await fetch(`${baseUrl}/books.json`);
-  const data = await response.json();
+    <div className="">
+      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+        <div className="relative isolate overflow-hidden px-6 py-24 text-center sm:px-16">
+          <h2 className="mx-auto max-w-2xl text-5xl tracking-tight sm:text-4xl flex items-center">
 
-return {
-props: {
-books: data,
-},
-};
-};
+  <span className="text-6xl">☧</span> 
+  <span className="ml-3">Orthodox Reader</span>
+  <span className="text-xs align-top ml-1">™</span>
+</h2>
 
-// Rest of your code...
+<p className="mx-auto mt-6 max-w-xl text-lg leading-8 ">
+Join the Faithful in Exploring the Mysteries of Faith. Begin your pilgrimage now!
+</p>
+<div className="mt-10 flex items-center justify-center gap-x-6">
+<a
+              href="/old-testament/genesis/1"
+              className="btn rounded-sm border-0 bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >
+Read Now
+</a>
+<a href="/about" className="text-sm font-semibold leading-6">
+Learn more <span aria-hidden="true">→</span>
+</a>
+</div>
+<svg
+            viewBox="0 0 1024 1024"
+            className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+            aria-hidden="true"
+          >
+<defs>
+<radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+<stop stopColor="#7775D6" />
+<stop offset={1} stopColor="#E935C1" />
+</radialGradient>
+</defs>
+</svg>
+</div>
+</div>
+</div>
 
-export default function Index({ books }) {
-  return (
-    <>
-      <h1>Books of the Bible</h1>
-
-      {books && books.old_testament && (
-        <div>
-          <h3 id="old-testament">Old Testament</h3>
-          <ul>
-            {books.old_testament.map((book) => (
-              <li key={book}>{book}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {books && books.new_testament && (
-        <div>
-          <h3 id="new-testament">New Testament</h3>
-          <ul>
-            {books.new_testament.map((book) => (
-              <li key={book}>{book}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </>
-
-);
-}
+{/* <Features /> */}

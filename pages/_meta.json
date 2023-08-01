@@ -1,11 +1,24 @@
 {
-  "index": "NKJV",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "index": {
+    "title": "NKJV",
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
   },
   "old-testament": {
     "title": "Old Testament",
+    "theme": {
+      "breadcrumb": true,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    },
     "order": [
       "genesis",
       "exodus",
@@ -117,5 +130,50 @@
       "jude",
       "revelation"
     ]
+  },
+  "books": {
+    "title": "Books",
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "about": {
+    "title": "About",
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
+  "roadmap": {
+    "title": "🛣️ Roadmap",
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
+
+  "settings": {
+    "title": "Settings",
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
   }
 }
