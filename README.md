@@ -1,1 +1,1 @@
-# Orthodox NKJV Reader
+# Orthodox Reader
