@@ -5,3 +5,4 @@ node_modules
 .env.local
 + .turbo
 .turbo/turbo-build.log
+.vercel
