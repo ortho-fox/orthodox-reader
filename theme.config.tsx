@@ -1,9 +1,6 @@
 // theme.config.tsx
 import React from 'react';
 import { DocsThemeConfig } from 'nextra-theme-docs';
-import CustomNav from './components/CustomNav'; // Import the custom content block component
-
-
 import { Lora } from 'next/font/google';
 import CustomFooter from './components/CustomFooter';
 const lora = Lora({
@@ -13,7 +10,6 @@ const lora = Lora({
 
 
 const config: DocsThemeConfig = {
-  // logo: <span>☧ Orthodox Reader</span>,
   banner: {
     key: '2.0-release',
     text: (
@@ -24,7 +20,6 @@ const config: DocsThemeConfig = {
   },
   main: ({ children }) => (
     <>
-      {/* <CustomNav /> */}
       <div className={lora.className}>
         <div className="mx-auto max-w-xl lg:max-w-3xl xl:max-w-3xl">
           {children}
@@ -57,9 +52,8 @@ const config: DocsThemeConfig = {
   footer: {
     component: CustomFooter,
   },
-  // Customize the search input placeholder text
   search: {
-    placeholder: 'Search NKJV', // Replace this with your desired text
+    placeholder: 'Search NKJV',
   },
   sidebar: {
     defaultMenuCollapseLevel: 1,
@@ -77,15 +71,12 @@ const config: DocsThemeConfig = {
       return <>{title}</>;
     },
   },
-  // Add the `editLink` option to hide the "Edit this page" link
   editLink: {
-    text: null, // Set to null to hide the link
+    text: null,
   },
-  // Add the `feedback` option to hide the "Question? Give us feedback →" link
   feedback: {
-    content: null, // Set to null to hide the link
+    content: null,
   },
-  // Set gitTimestamp to null to hide the last updated date
   gitTimestamp: null,
 };
 
