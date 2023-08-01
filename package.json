@@ -4,9 +4,8 @@
   "description": "Orthodox NKJV Reader",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "generate-mdx": "node --experimental-specifier-resolution=node generate-mdx.js"
+    "build": "NODE_OPTIONS=--max_old_space_size=4096 next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,7 @@
   "homepage": "https://github.com/ortho-fox/orthodox-nkjv-reader#readme",
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "next": "^13.0.6",
+    "next": "13.4.12",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
