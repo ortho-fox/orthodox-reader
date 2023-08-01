@@ -1,0 +1,853 @@
+
+> orthodox-nkjv-reader@0.0.1 build
+> NODE_OPTIONS=--max_old_space_size=8192 next build --no-lint
+
+- warn Linting is disabled
+- info Loaded env from /Users/pro/Desktop/orthodox-nkjv-reader/.env.local
+- info Checking validity of types...
+- info Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/plugin.mjs for build dependencies failed at 'import(importPath)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './__temp__' in '/Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist'
+<w> while resolving './__temp__' in /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist as file
+<w>  at resolve esm file ./__temp__
+<w>  at file dependencies /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/compile.mjs
+<w>  at file /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/compile.mjs
+<w>  at resolve esm file ./compile.mjs
+<w>  at file dependencies /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/loader.mjs
+<w>  at file /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/loader.mjs
+<w>  at resolve esm file ./dist/loader.mjs
+<w>  at file dependencies /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/loader.js
+<w>  at file /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/loader.js
+<w>  at resolve commonjs /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/loader.js
+
+[35m🌼 daisyUI 3.5.0[0m [0mhttps://daisyui.com
+╰╮
+ ╰─ [32m✔︎[0m [2m[ [0m2[2m ][0m themes are enabled. You can add more themes or make your own theme:
+      https://daisyui.com/docs/themes
+
+[32m    ❤︎ Support daisyUI[0m: https://opencollective.com/daisyui[0m
+
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/plugin.mjs for build dependencies failed at 'import(importPath)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './__temp__' in '/Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist'
+<w> while resolving './__temp__' in /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist as file
+<w>  at resolve esm file ./__temp__
+<w>  at file dependencies /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/compile.mjs
+<w>  at file /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/compile.mjs
+<w>  at resolve esm file ./compile.mjs
+<w>  at file dependencies /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/loader.mjs
+<w>  at file /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/dist/loader.mjs
+<w>  at resolve esm file ./dist/loader.mjs
+<w>  at file dependencies /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/loader.js
+<w>  at file /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/loader.js
+<w>  at resolve commonjs /Users/pro/Desktop/orthodox-nkjv-reader/node_modules/nextra/loader.js
+- info Compiled successfully
+- info Collecting page data...
+- info Generating static pages (0/1214)
+- info Generating static pages (303/1214)
+- info Generating static pages (606/1214)
+- info Generating static pages (910/1214)
+- info Generating static pages (1214/1214)
+- info Finalizing page optimization...
+
+Route (pages)                                          Size     First Load JS
+┌ ○ /                                                  4.91 kB         174 kB
+├   /_app                                              0 B            79.5 kB
+├ ○ /404                                               187 B          79.7 kB
+├ ○ /about                                             5.27 kB         174 kB
+├ ○ /new-testament/1-corinthians/1                     5.86 kB         175 kB
+├ ○ /new-testament/1-corinthians/10                    5.98 kB         175 kB
+├ ○ /new-testament/1-corinthians/11                    5.92 kB         175 kB
+├ ○ /new-testament/1-corinthians/12 (624 ms)           5.69 kB         175 kB
+├ ○ /new-testament/1-corinthians/13                    5 kB            174 kB
+├ ○ /new-testament/1-corinthians/14 (626 ms)           6.34 kB         175 kB
+├ ○ /new-testament/1-corinthians/15 (449 ms)           6.9 kB          176 kB
+├ ○ /new-testament/1-corinthians/16 (646 ms)           5.5 kB          174 kB
+├ ○ /new-testament/1-corinthians/2 (600 ms)            5.28 kB         174 kB
+├ ○ /new-testament/1-corinthians/3 (610 ms)            5.5 kB          174 kB
+├ ○ /new-testament/1-corinthians/4 (389 ms)            5.63 kB         175 kB
+├ ○ /new-testament/1-corinthians/5 (610 ms)            5.2 kB          174 kB
+├ ○ /new-testament/1-corinthians/6 (339 ms)            5.49 kB         174 kB
+├ ○ /new-testament/1-corinthians/7 (536 ms)            6.46 kB         175 kB
+├ ○ /new-testament/1-corinthians/8 (549 ms)            5.06 kB         174 kB
+├ ○ /new-testament/1-corinthians/9 (506 ms)            5.85 kB         175 kB
+├ ○ /new-testament/1-john/1 (546 ms)                   4.85 kB         174 kB
+├ ○ /new-testament/1-john/2 (481 ms)                   5.77 kB         175 kB
+├ ○ /new-testament/1-john/3 (397 ms)                   5.52 kB         174 kB
+├ ○ /new-testament/1-john/4 (367 ms)                   5.35 kB         174 kB
+├ ○ /new-testament/1-john/5 (378 ms)                   5.35 kB         174 kB
+├ ○ /new-testament/1-peter/1 (342 ms)                  5.94 kB         175 kB
+├ ○ /new-testament/1-peter/2 (333 ms)                  5.88 kB         175 kB
+├ ○ /new-testament/1-peter/3                           5.84 kB         175 kB
+├ ○ /new-testament/1-peter/4 (390 ms)                  5.58 kB         175 kB
+├ ○ /new-testament/1-peter/5                           5.24 kB         174 kB
+├ ○ /new-testament/1-thessalonians/1 (301 ms)          5.01 kB         174 kB
+├ ○ /new-testament/1-thessalonians/2 (401 ms)          5.63 kB         175 kB
+├ ○ /new-testament/1-thessalonians/3                   5.12 kB         174 kB
+├ ○ /new-testament/1-thessalonians/4 (319 ms)          5.36 kB         174 kB
+├ ○ /new-testament/1-thessalonians/5 (423 ms)          5.47 kB         174 kB
+├ ○ /new-testament/1-timothy/1 (432 ms)                5.58 kB         175 kB
+├ ○ /new-testament/1-timothy/2 (421 ms)                5.1 kB          174 kB
+├ ○ /new-testament/1-timothy/3 (413 ms)                5.25 kB         174 kB
+├ ○ /new-testament/1-timothy/4 (459 ms)                5.26 kB         174 kB
+├ ○ /new-testament/1-timothy/5 (455 ms)                5.75 kB         175 kB
+├ ○ /new-testament/1-timothy/6 (573 ms)                5.73 kB         175 kB
+├ ○ /new-testament/2-corinthians/1 (491 ms)            5.77 kB         175 kB
+├ ○ /new-testament/2-corinthians/10 (545 ms)           5.47 kB         174 kB
+├ ○ /new-testament/2-corinthians/11 (493 ms)           6.24 kB         175 kB
+├ ○ /new-testament/2-corinthians/12 (365 ms)           5.83 kB         175 kB
+├ ○ /new-testament/2-corinthians/13 (544 ms)           5.19 kB         174 kB
+├ ○ /new-testament/2-corinthians/2 (368 ms)            5.37 kB         174 kB
+├ ○ /new-testament/2-corinthians/3                     5.29 kB         174 kB
+├ ○ /new-testament/2-corinthians/4 (333 ms)            5.39 kB         174 kB
+├ ○ /new-testament/2-corinthians/5 (368 ms)            5.53 kB         174 kB
+├ ○ /new-testament/2-corinthians/6 (338 ms)            5.37 kB         174 kB
+├ ○ /new-testament/2-corinthians/7                     5.5 kB          174 kB
+├ ○ /new-testament/2-corinthians/8                     5.74 kB         175 kB
+├ ○ /new-testament/2-corinthians/9 (574 ms)            5.37 kB         174 kB
+├ ○ /new-testament/2-john/1 (480 ms)                   5.09 kB         174 kB
+├ ○ /new-testament/2-peter/1 (466 ms)                  5.63 kB         175 kB
+├ ○ /new-testament/2-peter/2 (394 ms)                  6.01 kB         175 kB
+├ ○ /new-testament/2-peter/3 (504 ms)                  5.59 kB         175 kB
+├ ○ /new-testament/2-thessalonians/1 (438 ms)          5.09 kB         174 kB
+├ ○ /new-testament/2-thessalonians/2 (411 ms)          5.39 kB         174 kB
+├ ○ /new-testament/2-thessalonians/3                   5.26 kB         174 kB
+├ ○ /new-testament/2-timothy/1 (371 ms)                5.46 kB         174 kB
+├ ○ /new-testament/2-timothy/2                         5.8 kB          175 kB
+├ ○ /new-testament/2-timothy/3                         5.34 kB         174 kB
+├ ○ /new-testament/2-timothy/4                         5.58 kB         175 kB
+├ ○ /new-testament/3-john/1 (328 ms)                   5.15 kB         174 kB
+├ ○ /new-testament/acts/1                              6.11 kB         175 kB
+├ ○ /new-testament/acts/10                             7.06 kB         176 kB
+├ ○ /new-testament/acts/11                             6.06 kB         175 kB
+├ ○ /new-testament/acts/12                             6.02 kB         175 kB
+├ ○ /new-testament/acts/13 (335 ms)                    7.44 kB         176 kB
+├ ○ /new-testament/acts/14                             5.99 kB         175 kB
+├ ○ /new-testament/acts/15 (349 ms)                    6.66 kB         176 kB
+├ ○ /new-testament/acts/16 (320 ms)                    6.73 kB         176 kB
+├ ○ /new-testament/acts/17                             6.58 kB         176 kB
+├ ○ /new-testament/acts/18                             6.13 kB         175 kB
+├ ○ /new-testament/acts/19 (340 ms)                    6.83 kB         176 kB
+├ ○ /new-testament/acts/2                              6.96 kB         176 kB
+├ ○ /new-testament/acts/20 (338 ms)                    6.59 kB         176 kB
+├ ○ /new-testament/acts/21                             6.92 kB         176 kB
+├ ○ /new-testament/acts/22                             6.23 kB         175 kB
+├ ○ /new-testament/acts/23                             6.52 kB         175 kB
+├ ○ /new-testament/acts/24                             6.12 kB         175 kB
+├ ○ /new-testament/acts/25                             6.08 kB         175 kB
+├ ○ /new-testament/acts/26                             6.43 kB         175 kB
+├ ○ /new-testament/acts/27                             6.94 kB         176 kB
+├ ○ /new-testament/acts/28                             6.47 kB         175 kB
+├ ○ /new-testament/acts/3                              5.96 kB         175 kB
+├ ○ /new-testament/acts/4                              6.49 kB         175 kB
+├ ○ /new-testament/acts/5                              6.76 kB         176 kB
+├ ○ /new-testament/acts/6                              5.34 kB         174 kB
+├ ○ /new-testament/acts/7                              7.68 kB         177 kB
+├ ○ /new-testament/acts/8                              6.56 kB         175 kB
+├ ○ /new-testament/acts/9                              6.77 kB         176 kB
+├ ○ /new-testament/colossians/1                        5.95 kB         175 kB
+├ ○ /new-testament/colossians/2                        5.76 kB         175 kB
+├ ○ /new-testament/colossians/3                        5.59 kB         175 kB
+├ ○ /new-testament/colossians/4                        5.38 kB         174 kB
+├ ○ /new-testament/ephesians/1                         5.53 kB         174 kB
+├ ○ /new-testament/ephesians/2                         5.57 kB         174 kB
+├ ○ /new-testament/ephesians/3                         5.43 kB         174 kB
+├ ○ /new-testament/ephesians/4                         5.98 kB         175 kB
+├ ○ /new-testament/ephesians/5                         5.85 kB         175 kB
+├ ○ /new-testament/ephesians/6                         5.6 kB          175 kB
+├ ○ /new-testament/galatians/1 (307 ms)                5.55 kB         174 kB
+├ ○ /new-testament/galatians/2                         5.78 kB         175 kB
+├ ○ /new-testament/galatians/3                         5.87 kB         175 kB
+├ ○ /new-testament/galatians/4                         5.9 kB          175 kB
+├ ○ /new-testament/galatians/5                         5.63 kB         175 kB
+├ ○ /new-testament/galatians/6                         5.29 kB         174 kB
+├ ○ /new-testament/james/1                             5.81 kB         175 kB
+├ ○ /new-testament/james/2 (344 ms)                    5.73 kB         175 kB
+├ ○ /new-testament/james/3 (302 ms)                    5.41 kB         174 kB
+├ ○ /new-testament/james/4 (330 ms)                    5.33 kB         174 kB
+├ ○ /new-testament/james/5 (325 ms)                    5.57 kB         174 kB
+├ ○ /new-testament/john/1                              6.58 kB         176 kB
+├ ○ /new-testament/john/10 (309 ms)                    6.21 kB         175 kB
+├ ○ /new-testament/john/11 (322 ms)                    6.97 kB         176 kB
+├ ○ /new-testament/john/12                             7 kB            176 kB
+├ ○ /new-testament/john/13                             6.22 kB         175 kB
+├ ○ /new-testament/john/14 (322 ms)                    5.86 kB         175 kB
+├ ○ /new-testament/john/15                             5.64 kB         175 kB
+├ ○ /new-testament/john/16                             6 kB            175 kB
+├ ○ /new-testament/john/17 (321 ms)                    5.53 kB         174 kB
+├ ○ /new-testament/john/18                             6.49 kB         175 kB
+├ ○ /new-testament/john/19                             6.74 kB         176 kB
+├ ○ /new-testament/john/2 (315 ms)                     5.62 kB         175 kB
+├ ○ /new-testament/john/20                             5.96 kB         175 kB
+├ ○ /new-testament/john/21                             5.91 kB         175 kB
+├ ○ /new-testament/john/3                              6.07 kB         175 kB
+├ ○ /new-testament/john/4                              6.83 kB         176 kB
+├ ○ /new-testament/john/5                              6.57 kB         175 kB
+├ ○ /new-testament/john/6                              7.43 kB         176 kB
+├ ○ /new-testament/john/7                              6.65 kB         176 kB
+├ ○ /new-testament/john/8                              7.08 kB         176 kB
+├ ○ /new-testament/john/9                              6.21 kB         175 kB
+├ ○ /new-testament/jude/1                              6.15 kB         175 kB
+├ ○ /new-testament/luke/1                              7.99 kB         177 kB
+├ ○ /new-testament/luke/10                             6.75 kB         176 kB
+├ ○ /new-testament/luke/11                             7.42 kB         176 kB
+├ ○ /new-testament/luke/12                             7.59 kB         177 kB
+├ ○ /new-testament/luke/13                             6.49 kB         175 kB
+├ ○ /new-testament/luke/14                             6.23 kB         175 kB
+├ ○ /new-testament/luke/15                             6.05 kB         175 kB
+├ ○ /new-testament/luke/16                             6.22 kB         175 kB
+├ ○ /new-testament/luke/17                             6.28 kB         175 kB
+├ ○ /new-testament/luke/18                             6.58 kB         176 kB
+├ ○ /new-testament/luke/19                             6.85 kB         176 kB
+├ ○ /new-testament/luke/2                              6.96 kB         176 kB
+├ ○ /new-testament/luke/20                             6.74 kB         176 kB
+├ ○ /new-testament/luke/21                             6.34 kB         175 kB
+├ ○ /new-testament/luke/22                             7.66 kB         177 kB
+├ ○ /new-testament/luke/23                             7.19 kB         176 kB
+├ ○ /new-testament/luke/24                             6.85 kB         176 kB
+├ ○ /new-testament/luke/3                              6.26 kB         175 kB
+├ ○ /new-testament/luke/4                              6.83 kB         176 kB
+├ ○ /new-testament/luke/5                              6.66 kB         176 kB
+├ ○ /new-testament/luke/6                              7.05 kB         176 kB
+├ ○ /new-testament/luke/7                              7.18 kB         176 kB
+├ ○ /new-testament/luke/8                              7.65 kB         177 kB
+├ ○ /new-testament/luke/9                              7.71 kB         177 kB
+├ ○ /new-testament/mark/1                              6.66 kB         176 kB
+├ ○ /new-testament/mark/10                             7.06 kB         176 kB
+├ ○ /new-testament/mark/11                             6.2 kB          175 kB
+├ ○ /new-testament/mark/12                             6.93 kB         176 kB
+├ ○ /new-testament/mark/13                             6.33 kB         175 kB
+├ ○ /new-testament/mark/14                             8.02 kB         177 kB
+├ ○ /new-testament/mark/15                             6.69 kB         176 kB
+├ ○ /new-testament/mark/16                             5.48 kB         174 kB
+├ ○ /new-testament/mark/2                              5.99 kB         175 kB
+├ ○ /new-testament/mark/3                              6.05 kB         175 kB
+├ ○ /new-testament/mark/4                              6.41 kB         175 kB
+├ ○ /new-testament/mark/5                              6.6 kB          176 kB
+├ ○ /new-testament/mark/6                              7.44 kB         176 kB
+├ ○ /new-testament/mark/7                              6.33 kB         175 kB
+├ ○ /new-testament/mark/8                              6.35 kB         175 kB
+├ ○ /new-testament/mark/9                              6.99 kB         176 kB
+├ ○ /new-testament/matthew/1                           5.5 kB          174 kB
+├ ○ /new-testament/matthew/10                          6.46 kB         175 kB
+├ ○ /new-testament/matthew/11                          6.01 kB         175 kB
+├ ○ /new-testament/matthew/12                          6.99 kB         176 kB
+├ ○ /new-testament/matthew/13                          7.23 kB         176 kB
+├ ○ /new-testament/matthew/14                          6.13 kB         175 kB
+├ ○ /new-testament/matthew/15                          6.31 kB         175 kB
+├ ○ /new-testament/matthew/16                          5.96 kB         175 kB
+├ ○ /new-testament/matthew/17                          5.98 kB         175 kB
+├ ○ /new-testament/matthew/18                          6.26 kB         175 kB
+├ ○ /new-testament/matthew/19                          6.09 kB         175 kB
+├ ○ /new-testament/matthew/2                           5.78 kB         175 kB
+├ ○ /new-testament/matthew/20                          6.13 kB         175 kB
+├ ○ /new-testament/matthew/21                          6.99 kB         176 kB
+├ ○ /new-testament/matthew/22                          6.46 kB         175 kB
+├ ○ /new-testament/matthew/23                          6.27 kB         175 kB
+├ ○ /new-testament/matthew/24                          6.71 kB         176 kB
+├ ○ /new-testament/matthew/25                          6.41 kB         175 kB
+├ ○ /new-testament/matthew/26                          7.99 kB         177 kB
+├ ○ /new-testament/matthew/27                          7.63 kB         177 kB
+├ ○ /new-testament/matthew/28                          5.47 kB         174 kB
+├ ○ /new-testament/matthew/3                           5.52 kB         174 kB
+├ ○ /new-testament/matthew/4                           5.76 kB         175 kB
+├ ○ /new-testament/matthew/5                           6.58 kB         176 kB
+├ ○ /new-testament/matthew/6                           6.01 kB         175 kB
+├ ○ /new-testament/matthew/7                           5.75 kB         175 kB
+├ ○ /new-testament/matthew/8                           6.22 kB         175 kB
+├ ○ /new-testament/matthew/9                           6.4 kB          175 kB
+├ ○ /new-testament/philippians/1                       5.95 kB         175 kB
+├ ○ /new-testament/philippians/2                       5.9 kB          175 kB
+├ ○ /new-testament/philippians/3                       5.57 kB         174 kB
+├ ○ /new-testament/philippians/4                       5.58 kB         175 kB
+├ ○ /new-testament/revelation/1                        5.7 kB          175 kB
+├ ○ /new-testament/revelation/10                       5.11 kB         174 kB
+├ ○ /new-testament/revelation/11                       5.78 kB         175 kB
+├ ○ /new-testament/revelation/12                       5.53 kB         174 kB
+├ ○ /new-testament/revelation/13                       5.47 kB         174 kB
+├ ○ /new-testament/revelation/14                       5.8 kB          175 kB
+├ ○ /new-testament/revelation/15                       4.97 kB         174 kB
+├ ○ /new-testament/revelation/16                       5.66 kB         175 kB
+├ ○ /new-testament/revelation/17                       5.59 kB         175 kB
+├ ○ /new-testament/revelation/18                       6.04 kB         175 kB
+├ ○ /new-testament/revelation/19                       5.87 kB         175 kB
+├ ○ /new-testament/revelation/2                        6.04 kB         175 kB
+├ ○ /new-testament/revelation/20                       5.44 kB         174 kB
+├ ○ /new-testament/revelation/21                       6.05 kB         175 kB
+├ ○ /new-testament/revelation/22                       5.62 kB         175 kB
+├ ○ /new-testament/revelation/3                        5.72 kB         175 kB
+├ ○ /new-testament/revelation/4                        5.15 kB         174 kB
+├ ○ /new-testament/revelation/5                        5.29 kB         174 kB
+├ ○ /new-testament/revelation/6                        5.48 kB         174 kB
+├ ○ /new-testament/revelation/7                        5.39 kB         174 kB
+├ ○ /new-testament/revelation/8                        5.18 kB         174 kB
+├ ○ /new-testament/revelation/9                        5.64 kB         175 kB
+├ ○ /new-testament/romans/1                            6.29 kB         175 kB
+├ ○ /new-testament/romans/10                           5.48 kB         174 kB
+├ ○ /new-testament/romans/11                           6.36 kB         175 kB
+├ ○ /new-testament/romans/12                           5.49 kB         174 kB
+├ ○ /new-testament/romans/13                           5.3 kB          174 kB
+├ ○ /new-testament/romans/14                           5.6 kB          175 kB
+├ ○ /new-testament/romans/15                           6.14 kB         175 kB
+├ ○ /new-testament/romans/16                           5.66 kB         175 kB
+├ ○ /new-testament/romans/2                            5.86 kB         175 kB
+├ ○ /new-testament/romans/3                            5.84 kB         175 kB
+├ ○ /new-testament/romans/4                            5.66 kB         175 kB
+├ ○ /new-testament/romans/5                            5.49 kB         174 kB
+├ ○ /new-testament/romans/6                            5.46 kB         174 kB
+├ ○ /new-testament/romans/7                            5.66 kB         175 kB
+├ ○ /new-testament/romans/8                            6.37 kB         175 kB
+├ ○ /new-testament/romans/9                            6.15 kB         175 kB
+├ ○ /new-testament/titus/1                             5.4 kB          174 kB
+├ ○ /new-testament/titus/2                             5.14 kB         174 kB
+├ ○ /new-testament/titus/3                             5.27 kB         174 kB
+├ ○ /old-testament/1-chronicles/1 (776 ms)             12.1 kB         181 kB
+├ ○ /old-testament/1-chronicles/10 (803 ms)            11.4 kB         180 kB
+├ ○ /old-testament/1-chronicles/11 (707 ms)            12.8 kB         182 kB
+├ ○ /old-testament/1-chronicles/12 (798 ms)            12.8 kB         182 kB
+├ ○ /old-testament/1-chronicles/13 (1021 ms)           11.4 kB         180 kB
+├ ○ /old-testament/1-chronicles/14 (739 ms)            11.4 kB         180 kB
+├ ○ /old-testament/1-chronicles/15 (745 ms)            12 kB           181 kB
+├ ○ /old-testament/1-chronicles/16 (1092 ms)           12.5 kB         181 kB
+├ ○ /old-testament/1-chronicles/17 (761 ms)            12.2 kB         181 kB
+├ ○ /old-testament/1-chronicles/18 (754 ms)            11.5 kB         180 kB
+├ ○ /old-testament/1-chronicles/19 (1036 ms)           11.8 kB         181 kB
+├ ○ /old-testament/1-chronicles/2 (723 ms)             12.5 kB         181 kB
+├ ○ /old-testament/1-chronicles/20 (754 ms)            11.2 kB         180 kB
+├ ○ /old-testament/1-chronicles/21 (765 ms)            12.5 kB         181 kB
+├ ○ /old-testament/1-chronicles/22 (732 ms)            11.9 kB         181 kB
+├ ○ /old-testament/1-chronicles/23 (863 ms)            12.1 kB         181 kB
+├ ○ /old-testament/1-chronicles/24 (769 ms)            11.6 kB         181 kB
+├ ○ /old-testament/1-chronicles/25 (818 ms)            11.4 kB         180 kB
+├ ○ /old-testament/1-chronicles/26 (777 ms)            12.1 kB         181 kB
+├ ○ /old-testament/1-chronicles/27 (813 ms)            12.1 kB         181 kB
+├ ○ /old-testament/1-chronicles/28 (1090 ms)           12.2 kB         181 kB
+├ ○ /old-testament/1-chronicles/29 (722 ms)            12.6 kB         182 kB
+├ ○ /old-testament/1-chronicles/3 (757 ms)             11.4 kB         180 kB
+├ ○ /old-testament/1-chronicles/4 (1215 ms)            12.6 kB         182 kB
+├ ○ /old-testament/1-chronicles/5 (833 ms)             12 kB           181 kB
+├ ○ /old-testament/1-chronicles/6 (799 ms)             12.8 kB         182 kB
+├ ○ /old-testament/1-chronicles/7 (712 ms)             12.3 kB         181 kB
+├ ○ /old-testament/1-chronicles/8 (793 ms)             11.7 kB         181 kB
+├ ○ /old-testament/1-chronicles/9 (814 ms)             12.6 kB         182 kB
+├ ○ /old-testament/1-kings/1 (767 ms)                  13.5 kB         182 kB
+├ ○ /old-testament/1-kings/10 (734 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/1-kings/11 (695 ms)                 13.2 kB         182 kB
+├ ○ /old-testament/1-kings/12 (772 ms)                 12.6 kB         182 kB
+├ ○ /old-testament/1-kings/13 (731 ms)                 12.5 kB         181 kB
+├ ○ /old-testament/1-kings/14 (1045 ms)                12.7 kB         182 kB
+├ ○ /old-testament/1-kings/15 (739 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/1-kings/16 (704 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/1-kings/17 (732 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/1-kings/18 (771 ms)                 13.4 kB         182 kB
+├ ○ /old-testament/1-kings/19 (735 ms)                 12 kB           181 kB
+├ ○ /old-testament/1-kings/2 (729 ms)                  13.6 kB         182 kB
+├ ○ /old-testament/1-kings/20 (950 ms)                 13.5 kB         182 kB
+├ ○ /old-testament/1-kings/21 (617 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/1-kings/22 (941 ms)                 13.6 kB         182 kB
+├ ○ /old-testament/1-kings/3 (686 ms)                  12.4 kB         181 kB
+├ ○ /old-testament/1-kings/4 (974 ms)                  12.2 kB         181 kB
+├ ○ /old-testament/1-kings/5 (951 ms)                  11.8 kB         181 kB
+├ ○ /old-testament/1-kings/6 (858 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/1-kings/7 (929 ms)                  13.2 kB         182 kB
+├ ○ /old-testament/1-kings/8 (1001 ms)                 14.4 kB         183 kB
+├ ○ /old-testament/1-kings/9 (861 ms)                  12.4 kB         181 kB
+├ ○ /old-testament/1-samuel/1 (784 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/1-samuel/10 (978 ms)                12.5 kB         181 kB
+├ ○ /old-testament/1-samuel/11 (751 ms)                11.6 kB         181 kB
+├ ○ /old-testament/1-samuel/12 (845 ms)                12.2 kB         181 kB
+├ ○ /old-testament/1-samuel/13 (770 ms)                12.1 kB         181 kB
+├ ○ /old-testament/1-samuel/14 (661 ms)                13.9 kB         183 kB
+├ ○ /old-testament/1-samuel/15 (827 ms)                12.6 kB         182 kB
+├ ○ /old-testament/1-samuel/16 (662 ms)                12 kB           181 kB
+├ ○ /old-testament/1-samuel/17 (678 ms)                14 kB           183 kB
+├ ○ /old-testament/1-samuel/18 (580 ms)                12.3 kB         181 kB
+├ ○ /old-testament/1-samuel/19 (721 ms)                12 kB           181 kB
+├ ○ /old-testament/1-samuel/2 (707 ms)                 13.1 kB         182 kB
+├ ○ /old-testament/1-samuel/20 (583 ms)                13.2 kB         182 kB
+├ ○ /old-testament/1-samuel/21 (620 ms)                11.7 kB         181 kB
+├ ○ /old-testament/1-samuel/22 (680 ms)                12.1 kB         181 kB
+├ ○ /old-testament/1-samuel/23 (635 ms)                12.3 kB         181 kB
+├ ○ /old-testament/1-samuel/24 (783 ms)                12 kB           181 kB
+├ ○ /old-testament/1-samuel/25 (761 ms)                13.6 kB         183 kB
+├ ○ /old-testament/1-samuel/26 (799 ms)                12.3 kB         181 kB
+├ ○ /old-testament/1-samuel/27 (797 ms)                11.5 kB         180 kB
+├ ○ /old-testament/1-samuel/28 (874 ms)                12.3 kB         181 kB
+├ ○ /old-testament/1-samuel/29 (826 ms)                11.4 kB         180 kB
+├ ○ /old-testament/1-samuel/3 (643 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/1-samuel/30 (646 ms)                12.5 kB         181 kB
+├ ○ /old-testament/1-samuel/31 (849 ms)                11.3 kB         180 kB
+├ ○ /old-testament/1-samuel/4 (641 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/1-samuel/5 (552 ms)                 11.3 kB         180 kB
+├ ○ /old-testament/1-samuel/6 (694 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/1-samuel/7 (596 ms)                 11.6 kB         181 kB
+├ ○ /old-testament/1-samuel/8 (567 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/1-samuel/9 (619 ms)                 12.6 kB         181 kB
+├ ○ /old-testament/2-chronicles/1 (842 ms)             11.7 kB         181 kB
+├ ○ /old-testament/2-chronicles/10 (860 ms)            11.7 kB         181 kB
+├ ○ /old-testament/2-chronicles/11 (834 ms)            11.8 kB         181 kB
+├ ○ /old-testament/2-chronicles/12 (868 ms)            11.7 kB         181 kB
+├ ○ /old-testament/2-chronicles/13 (666 ms)            12 kB           181 kB
+├ ○ /old-testament/2-chronicles/14 (710 ms)            11.6 kB         180 kB
+├ ○ /old-testament/2-chronicles/15 (679 ms)            11.7 kB         181 kB
+├ ○ /old-testament/2-chronicles/16 (616 ms)            11.6 kB         181 kB
+├ ○ /old-testament/2-chronicles/17 (805 ms)            11.6 kB         180 kB
+├ ○ /old-testament/2-chronicles/18 (638 ms)            12.6 kB         182 kB
+├ ○ /old-testament/2-chronicles/19 (679 ms)            11.4 kB         180 kB
+├ ○ /old-testament/2-chronicles/2 (700 ms)             11.9 kB         181 kB
+├ ○ /old-testament/2-chronicles/20 (629 ms)            13.2 kB         182 kB
+├ ○ /old-testament/2-chronicles/21 (671 ms)            11.9 kB         181 kB
+├ ○ /old-testament/2-chronicles/22 (621 ms)            11.5 kB         180 kB
+├ ○ /old-testament/2-chronicles/23 (652 ms)            12.1 kB         181 kB
+├ ○ /old-testament/2-chronicles/24 (679 ms)            12.5 kB         181 kB
+├ ○ /old-testament/2-chronicles/25 (698 ms)            12.7 kB         182 kB
+├ ○ /old-testament/2-chronicles/26 (742 ms)            12.2 kB         181 kB
+├ ○ /old-testament/2-chronicles/27 (735 ms)            11.1 kB         180 kB
+├ ○ /old-testament/2-chronicles/28 (708 ms)            12.5 kB         181 kB
+├ ○ /old-testament/2-chronicles/29 (651 ms)            12.9 kB         182 kB
+├ ○ /old-testament/2-chronicles/3 (732 ms)             11.5 kB         180 kB
+├ ○ /old-testament/2-chronicles/30 (647 ms)            12.4 kB         181 kB
+├ ○ /old-testament/2-chronicles/31 (709 ms)            12.2 kB         181 kB
+├ ○ /old-testament/2-chronicles/32 (675 ms)            13 kB           182 kB
+├ ○ /old-testament/2-chronicles/33 (623 ms)            12.2 kB         181 kB
+├ ○ /old-testament/2-chronicles/34 (721 ms)            13 kB           182 kB
+├ ○ /old-testament/2-chronicles/35 (626 ms)            12.5 kB         181 kB
+├ ○ /old-testament/2-chronicles/36 (585 ms)            12.1 kB         181 kB
+├ ○ /old-testament/2-chronicles/4 (659 ms)             11.7 kB         181 kB
+├ ○ /old-testament/2-chronicles/5 (614 ms)             11.6 kB         181 kB
+├ ○ /old-testament/2-chronicles/6 (690 ms)             13.1 kB         182 kB
+├ ○ /old-testament/2-chronicles/7 (871 ms)             12.1 kB         181 kB
+├ ○ /old-testament/2-chronicles/8 (747 ms)             11.7 kB         181 kB
+├ ○ /old-testament/2-chronicles/9 (783 ms)             12.5 kB         181 kB
+├ ○ /old-testament/2-kings/1 (806 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/2-kings/10 (663 ms)                 13.1 kB         182 kB
+├ ○ /old-testament/2-kings/11 (796 ms)                 12 kB           181 kB
+├ ○ /old-testament/2-kings/12 (643 ms)                 12 kB           181 kB
+├ ○ /old-testament/2-kings/13 (736 ms)                 12 kB           181 kB
+├ ○ /old-testament/2-kings/14 (736 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/2-kings/15 (697 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/2-kings/16 (779 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/2-kings/17 (688 ms)                 13.1 kB         182 kB
+├ ○ /old-testament/2-kings/18 (769 ms)                 13.1 kB         182 kB
+├ ○ /old-testament/2-kings/19 (665 ms)                 13.2 kB         182 kB
+├ ○ /old-testament/2-kings/2 (625 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/2-kings/20 (693 ms)                 12 kB           181 kB
+├ ○ /old-testament/2-kings/21 (732 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/2-kings/22 (683 ms)                 12 kB           181 kB
+├ ○ /old-testament/2-kings/23 (647 ms)                 13.3 kB         182 kB
+├ ○ /old-testament/2-kings/24 (715 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/2-kings/25 (696 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/2-kings/3 (698 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/2-kings/4 (706 ms)                  13.2 kB         182 kB
+├ ○ /old-testament/2-kings/5 (778 ms)                  12.6 kB         182 kB
+├ ○ /old-testament/2-kings/6 (784 ms)                  12.7 kB         182 kB
+├ ○ /old-testament/2-kings/7 (705 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/2-kings/8 (659 ms)                  12.4 kB         181 kB
+├ ○ /old-testament/2-kings/9 (700 ms)                  13 kB           182 kB
+├ ○ /old-testament/2-samuel/1 (644 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/2-samuel/10 (651 ms)                11.8 kB         181 kB
+├ ○ /old-testament/2-samuel/11 (652 ms)                12.3 kB         181 kB
+├ ○ /old-testament/2-samuel/12 (717 ms)                12.6 kB         182 kB
+├ ○ /old-testament/2-samuel/13 (741 ms)                12.9 kB         182 kB
+├ ○ /old-testament/2-samuel/14 (694 ms)                12.8 kB         182 kB
+├ ○ /old-testament/2-samuel/15 (577 ms)                13 kB           182 kB
+├ ○ /old-testament/2-samuel/16 (642 ms)                12.2 kB         181 kB
+├ ○ /old-testament/2-samuel/17 (743 ms)                12.7 kB         182 kB
+├ ○ /old-testament/2-samuel/18 (735 ms)                12.9 kB         182 kB
+├ ○ /old-testament/2-samuel/19 (619 ms)                13.5 kB         182 kB
+├ ○ /old-testament/2-samuel/2 (791 ms)                 12.5 kB         181 kB
+├ ○ /old-testament/2-samuel/20 (721 ms)                12.5 kB         181 kB
+├ ○ /old-testament/2-samuel/21 (658 ms)                12.3 kB         181 kB
+├ ○ /old-testament/2-samuel/22 (689 ms)                12.7 kB         182 kB
+├ ○ /old-testament/2-samuel/23 (668 ms)                12.7 kB         182 kB
+├ ○ /old-testament/2-samuel/24 (708 ms)                12.4 kB         181 kB
+├ ○ /old-testament/2-samuel/3 (699 ms)                 13.1 kB         182 kB
+├ ○ /old-testament/2-samuel/4 (678 ms)                 11.5 kB         180 kB
+├ ○ /old-testament/2-samuel/5 (629 ms)                 12 kB           181 kB
+├ ○ /old-testament/2-samuel/6 (723 ms)                 12 kB           181 kB
+├ ○ /old-testament/2-samuel/7 (771 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/2-samuel/8 (822 ms)                 11.6 kB         181 kB
+├ ○ /old-testament/2-samuel/9 (768 ms)                 11.4 kB         180 kB
+├ ○ /old-testament/amos/1 (760 ms)                     11.4 kB         180 kB
+├ ○ /old-testament/amos/2 (719 ms)                     11.5 kB         180 kB
+├ ○ /old-testament/amos/3 (702 ms)                     11.5 kB         180 kB
+├ ○ /old-testament/amos/4 (724 ms)                     11.5 kB         180 kB
+├ ○ /old-testament/amos/5 (631 ms)                     12.1 kB         181 kB
+├ ○ /old-testament/amos/6 (740 ms)                     11.5 kB         180 kB
+├ ○ /old-testament/amos/7 (715 ms)                     11.5 kB         180 kB
+├ ○ /old-testament/amos/8 (730 ms)                     11.5 kB         180 kB
+├ ○ /old-testament/amos/9 (611 ms)                     11.7 kB         181 kB
+├ ○ /old-testament/baruch/summary (616 ms)             10.4 kB         179 kB
+├ ○ /old-testament/daniel/1 (749 ms)                   11.8 kB         181 kB
+├ ○ /old-testament/daniel/10 (748 ms)                  12 kB           181 kB
+├ ○ /old-testament/daniel/11 (741 ms)                  13.6 kB         182 kB
+├ ○ /old-testament/daniel/12 (766 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/daniel/2 (762 ms)                   13.6 kB         183 kB
+├ ○ /old-testament/daniel/3 (712 ms)                   12.3 kB         181 kB
+├ ○ /old-testament/daniel/4 (754 ms)                   13.1 kB         182 kB
+├ ○ /old-testament/daniel/5 (671 ms)                   12.6 kB         182 kB
+├ ○ /old-testament/daniel/6 (681 ms)                   12.5 kB         181 kB
+├ ○ /old-testament/daniel/7 (687 ms)                   12.6 kB         181 kB
+├ ○ /old-testament/daniel/8 (661 ms)                   12.4 kB         181 kB
+├ ○ /old-testament/daniel/9 (640 ms)                   12.7 kB         182 kB
+├ ○ /old-testament/deuteronomy/1 (817 ms)              13.2 kB         182 kB
+├ ○ /old-testament/deuteronomy/10 (691 ms)             11.9 kB         181 kB
+├ ○ /old-testament/deuteronomy/11 (684 ms)             12.4 kB         181 kB
+├ ○ /old-testament/deuteronomy/12 (753 ms)             12.3 kB         181 kB
+├ ○ /old-testament/deuteronomy/13 (739 ms)             11.7 kB         181 kB
+├ ○ /old-testament/deuteronomy/14 (742 ms)             11.9 kB         181 kB
+├ ○ /old-testament/deuteronomy/15 (648 ms)             11.9 kB         181 kB
+├ ○ /old-testament/deuteronomy/16 (724 ms)             11.8 kB         181 kB
+├ ○ /old-testament/deuteronomy/17 (717 ms)             11.9 kB         181 kB
+├ ○ /old-testament/deuteronomy/18 (693 ms)             11.8 kB         181 kB
+├ ○ /old-testament/deuteronomy/19 (691 ms)             11.8 kB         181 kB
+├ ○ /old-testament/deuteronomy/2 (634 ms)              12.6 kB         182 kB
+├ ○ /old-testament/deuteronomy/20 (695 ms)             11.8 kB         181 kB
+├ ○ /old-testament/deuteronomy/21 (632 ms)             12 kB           181 kB
+├ ○ /old-testament/deuteronomy/22 (707 ms)             12.3 kB         181 kB
+├ ○ /old-testament/deuteronomy/23 (754 ms)             11.9 kB         181 kB
+├ ○ /old-testament/deuteronomy/24 (692 ms)             11.9 kB         181 kB
+├ ○ /old-testament/deuteronomy/25 (739 ms)             11.8 kB         181 kB
+├ ○ /old-testament/deuteronomy/26 (710 ms)             11.9 kB         181 kB
+├ ○ /old-testament/deuteronomy/27 (645 ms)             11.6 kB         181 kB
+├ ○ /old-testament/deuteronomy/28 (797 ms)             14.1 kB         183 kB
+├ ○ /old-testament/deuteronomy/29 (828 ms)             12.4 kB         181 kB
+├ ○ /old-testament/deuteronomy/3 (750 ms)              12.3 kB         181 kB
+├ ○ /old-testament/deuteronomy/30 (764 ms)             11.7 kB         181 kB
+├ ○ /old-testament/deuteronomy/31 (755 ms)             12.5 kB         181 kB
+├ ○ /old-testament/deuteronomy/32 (795 ms)             13.7 kB         183 kB
+├ ○ /old-testament/deuteronomy/33 (794 ms)             12.4 kB         181 kB
+├ ○ /old-testament/deuteronomy/34 (814 ms)             11.3 kB         180 kB
+├ ○ /old-testament/deuteronomy/4 (785 ms)              13.5 kB         182 kB
+├ ○ /old-testament/deuteronomy/5 (780 ms)              12.3 kB         181 kB
+├ ○ /old-testament/deuteronomy/6 (769 ms)              11.8 kB         181 kB
+├ ○ /old-testament/deuteronomy/7 (846 ms)              12.3 kB         181 kB
+├ ○ /old-testament/deuteronomy/8 (776 ms)              11.7 kB         181 kB
+├ ○ /old-testament/deuteronomy/9 (911 ms)              12.5 kB         181 kB
+├ ○ /old-testament/ecclesiastes/1 (869 ms)             11.4 kB         180 kB
+├ ○ /old-testament/ecclesiastes/10 (857 ms)            11.5 kB         180 kB
+├ ○ /old-testament/ecclesiastes/11 (570 ms)            11.1 kB         180 kB
+├ ○ /old-testament/ecclesiastes/12 (803 ms)            11.4 kB         180 kB
+├ ○ /old-testament/ecclesiastes/2 (749 ms)             12.1 kB         181 kB
+├ ○ /old-testament/ecclesiastes/3 (790 ms)             11.6 kB         180 kB
+├ ○ /old-testament/ecclesiastes/4 (651 ms)             11.4 kB         180 kB
+├ ○ /old-testament/ecclesiastes/5 (791 ms)             11.8 kB         181 kB
+├ ○ /old-testament/ecclesiastes/6 (776 ms)             11.2 kB         180 kB
+├ ○ /old-testament/ecclesiastes/7 (621 ms)             12 kB           181 kB
+├ ○ /old-testament/ecclesiastes/8 (656 ms)             11.7 kB         181 kB
+├ ○ /old-testament/ecclesiastes/9 (580 ms)             11.8 kB         181 kB
+├ ○ /old-testament/esther/1 (643 ms)                   12.2 kB         181 kB
+├ ○ /old-testament/esther/10 (609 ms)                  10.7 kB         180 kB
+├ ○ /old-testament/esther/2 (652 ms)                   12.3 kB         181 kB
+├ ○ /old-testament/esther/3 (621 ms)                   11.8 kB         181 kB
+├ ○ /old-testament/esther/4 (726 ms)                   11.7 kB         181 kB
+├ ○ /old-testament/esther/5 (631 ms)                   11.5 kB         180 kB
+├ ○ /old-testament/esther/6 (616 ms)                   11.5 kB         180 kB
+├ ○ /old-testament/esther/7 (608 ms)                   11.3 kB         180 kB
+├ ○ /old-testament/esther/8 (688 ms)                   11.9 kB         181 kB
+├ ○ /old-testament/esther/9 (614 ms)                   12.5 kB         181 kB
+├ ○ /old-testament/exodus/1 (691 ms)                   11.6 kB         181 kB
+├ ○ /old-testament/exodus/10 (744 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/exodus/11 (579 ms)                  11.2 kB         180 kB
+├ ○ /old-testament/exodus/12 (660 ms)                  13.4 kB         182 kB
+├ ○ /old-testament/exodus/13 (684 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/exodus/14 (806 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/exodus/15 (658 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/exodus/16 (714 ms)                  12.5 kB         181 kB
+├ ○ /old-testament/exodus/17 (785 ms)                  11.6 kB         180 kB
+├ ○ /old-testament/exodus/18 (634 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/exodus/19 (681 ms)                  12 kB           181 kB
+├ ○ /old-testament/exodus/2 (726 ms)                   12 kB           181 kB
+├ ○ /old-testament/exodus/20 (762 ms)                  11.8 kB         181 kB
+├ ○ /old-testament/exodus/21 (811 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/exodus/22 (762 ms)                  12.2 kB         181 kB
+├ ○ /old-testament/exodus/23 (657 ms)                  12.4 kB         181 kB
+├ ○ /old-testament/exodus/24 (715 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/exodus/25 (741 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/exodus/26 (715 ms)                  12 kB           181 kB
+├ ○ /old-testament/exodus/27 (697 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/exodus/28 (726 ms)                  12.6 kB         182 kB
+├ ○ /old-testament/exodus/29 (721 ms)                  12.6 kB         182 kB
+├ ○ /old-testament/exodus/3 (691 ms)                   12.1 kB         181 kB
+├ ○ /old-testament/exodus/30 (687 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/exodus/31 (685 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/exodus/32 (707 ms)                  12.8 kB         182 kB
+├ ○ /old-testament/exodus/33 (608 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/exodus/34 (868 ms)                  12.7 kB         182 kB
+├ ○ /old-testament/exodus/35 (696 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/exodus/36 (757 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/exodus/37 (840 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/exodus/38 (884 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/exodus/39 (857 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/exodus/4 (833 ms)                   12.3 kB         181 kB
+├ ○ /old-testament/exodus/40 (846 ms)                  11.8 kB         181 kB
+├ ○ /old-testament/exodus/5 (888 ms)                   11.9 kB         181 kB
+├ ○ /old-testament/exodus/6 (771 ms)                   11.9 kB         181 kB
+├ ○ /old-testament/exodus/7 (819 ms)                   11.8 kB         181 kB
+├ ○ /old-testament/exodus/8 (996 ms)                   12.2 kB         181 kB
+├ ○ /old-testament/exodus/9 (1068 ms)                  12.4 kB         181 kB
+├ ○ /old-testament/exodus/summary (936 ms)             12 kB           181 kB
+├ ○ /old-testament/ezekiel/1 (1034 ms)                 12 kB           181 kB
+├ ○ /old-testament/ezekiel/10 (827 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/ezekiel/11 (965 ms)                 12 kB           181 kB
+├ ○ /old-testament/ezekiel/12 (631 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/ezekiel/13 (798 ms)                 12 kB           181 kB
+├ ○ /old-testament/ezekiel/14 (871 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/ezekiel/15 (848 ms)                 11 kB           180 kB
+├ ○ /old-testament/ezekiel/16 (699 ms)                 14.2 kB         183 kB
+├ ○ /old-testament/ezekiel/17 (627 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/ezekiel/18 (1045 ms)                12.2 kB         181 kB
+├ ○ /old-testament/ezekiel/19 (925 ms)                 11.3 kB         180 kB
+├ ○ /old-testament/ezekiel/2 (692 ms)                  11.1 kB         180 kB
+├ ○ /old-testament/ezekiel/20 (650 ms)                 13.3 kB         182 kB
+├ ○ /old-testament/ezekiel/21 (698 ms)                 12.6 kB         181 kB
+├ ○ /old-testament/ezekiel/22 (642 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/ezekiel/23 (596 ms)                 13.4 kB         182 kB
+├ ○ /old-testament/ezekiel/24 (731 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/ezekiel/25 (613 ms)                 11.5 kB         180 kB
+├ ○ /old-testament/ezekiel/26 (733 ms)                 12 kB           181 kB
+├ ○ /old-testament/ezekiel/27 (837 ms)                 12.5 kB         181 kB
+├ ○ /old-testament/ezekiel/28 (723 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/ezekiel/29 (676 ms)                 12 kB           181 kB
+├ ○ /old-testament/ezekiel/3 (803 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/ezekiel/30 (636 ms)                 12 kB           181 kB
+├ ○ /old-testament/ezekiel/31 (815 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/ezekiel/32 (1050 ms)                12.4 kB         181 kB
+├ ○ /old-testament/ezekiel/33 (719 ms)                 12.6 kB         182 kB
+├ ○ /old-testament/ezekiel/34 (683 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/ezekiel/35 (670 ms)                 11.3 kB         180 kB
+├ ○ /old-testament/ezekiel/36 (934 ms)                 12.8 kB         182 kB
+├ ○ /old-testament/ezekiel/37 (1070 ms)                12.2 kB         181 kB
+├ ○ /old-testament/ezekiel/38 (1067 ms)                12.1 kB         181 kB
+├ ○ /old-testament/ezekiel/39 (869 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/ezekiel/4 (972 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/ezekiel/40 (740 ms)                 12.7 kB         182 kB
+├ ○ /old-testament/ezekiel/41 (1107 ms)                11.9 kB         181 kB
+├ ○ /old-testament/ezekiel/42 (915 ms)                 11.6 kB         180 kB
+├ ○ /old-testament/ezekiel/43 (773 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/ezekiel/44 (707 ms)                 12.5 kB         181 kB
+├ ○ /old-testament/ezekiel/45 (846 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/ezekiel/46 (673 ms)                 12 kB           181 kB
+├ ○ /old-testament/ezekiel/47 (652 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/ezekiel/48 (654 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/ezekiel/5 (702 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/ezekiel/6 (750 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/ezekiel/7 (618 ms)                  12.2 kB         181 kB
+├ ○ /old-testament/ezekiel/8 (657 ms)                  11.8 kB         181 kB
+├ ○ /old-testament/ezekiel/9 (703 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/ezra/1 (613 ms)                     11.3 kB         180 kB
+├ ○ /old-testament/ezra/10 (666 ms)                    12.7 kB         182 kB
+├ ○ /old-testament/ezra/2 (682 ms)                     12.4 kB         181 kB
+├ ○ /old-testament/ezra/3 (709 ms)                     11.7 kB         181 kB
+├ ○ /old-testament/ezra/4 (777 ms)                     12.2 kB         181 kB
+├ ○ /old-testament/ezra/5 (746 ms)                     11.8 kB         181 kB
+├ ○ /old-testament/ezra/6 (685 ms)                     12.2 kB         181 kB
+├ ○ /old-testament/ezra/7 (779 ms)                     12.2 kB         181 kB
+├ ○ /old-testament/ezra/8 (803 ms)                     12.6 kB         181 kB
+├ ○ /old-testament/ezra/9 (764 ms)                     12 kB           181 kB
+├ ○ /old-testament/genesis/1 (773 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/genesis/10 (742 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/genesis/11 (737 ms)                 11.6 kB         181 kB
+├ ○ /old-testament/genesis/12 (735 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/genesis/13 (706 ms)                 11.5 kB         180 kB
+├ ○ /old-testament/genesis/14 (576 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/genesis/15 (681 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/genesis/16 (650 ms)                 11.5 kB         180 kB
+├ ○ /old-testament/genesis/17 (690 ms)                 11.8 kB         181 kB
+├ ○ /old-testament/genesis/18 (676 ms)                 12.3 kB         181 kB
+├ ○ /old-testament/genesis/19 (688 ms)                 12.8 kB         182 kB
+├ ○ /old-testament/genesis/2 (735 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/genesis/20 (677 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/genesis/21 (714 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/genesis/22 (927 ms)                 11.8 kB         181 kB
+├ ○ /old-testament/genesis/23 (797 ms)                 11.5 kB         180 kB
+├ ○ /old-testament/genesis/24 (700 ms)                 14 kB           183 kB
+├ ○ /old-testament/genesis/25 (753 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/genesis/26 (702 ms)                 12.5 kB         181 kB
+├ ○ /old-testament/genesis/27 (660 ms)                 13 kB           182 kB
+├ ○ /old-testament/genesis/28 (629 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/genesis/29 (612 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/genesis/3 (597 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/genesis/30 (702 ms)                 12.7 kB         182 kB
+├ ○ /old-testament/genesis/31 (620 ms)                 13.5 kB         182 kB
+├ ○ /old-testament/genesis/32 (693 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/genesis/33 (631 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/genesis/34 (608 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/genesis/35 (618 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/genesis/36 (777 ms)                 12 kB           181 kB
+├ ○ /old-testament/genesis/37 (728 ms)                 12.6 kB         182 kB
+├ ○ /old-testament/genesis/38 (649 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/genesis/39 (661 ms)                 11.8 kB         181 kB
+├ ○ /old-testament/genesis/4 (699 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/genesis/40 (672 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/genesis/41 (740 ms)                 13.2 kB         182 kB
+├ ○ /old-testament/genesis/42 (782 ms)                 12.6 kB         182 kB
+├ ○ /old-testament/genesis/43 (764 ms)                 12.6 kB         182 kB
+├ ○ /old-testament/genesis/44 (671 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/genesis/45 (742 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/genesis/46 (827 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/genesis/47 (785 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/genesis/48 (746 ms)                 12 kB           181 kB
+├ ○ /old-testament/genesis/49 (636 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/genesis/5 (670 ms)                  11.2 kB         180 kB
+├ ○ /old-testament/genesis/50 (637 ms)                 12.1 kB         181 kB
+├ ○ /old-testament/genesis/6 (618 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/genesis/7 (682 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/genesis/8 (631 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/genesis/9 (611 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/genesis/summary (608 ms)            11.9 kB         181 kB
+├ ○ /old-testament/habakkuk/1 (635 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/habakkuk/2 (740 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/habakkuk/3 (657 ms)                 11.7 kB         181 kB
+├ ○ /old-testament/haggai/1 (725 ms)                   11.4 kB         180 kB
+├ ○ /old-testament/haggai/2 (720 ms)                   11.9 kB         181 kB
+├ ○ /old-testament/hebrews/1 (638 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/hebrews/10 (740 ms)                 12.6 kB         182 kB
+├ ○ /old-testament/hebrews/11 (631 ms)                 12.9 kB         182 kB
+├ ○ /old-testament/hebrews/12 (673 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/hebrews/13 (685 ms)                 11.9 kB         181 kB
+├ ○ /old-testament/hebrews/2 (702 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/hebrews/3 (694 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/hebrews/4 (807 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/hebrews/5 (612 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/hebrews/6 (709 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/hebrews/7 (808 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/hebrews/8 (658 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/hebrews/9 (857 ms)                  12.2 kB         181 kB
+├ ○ /old-testament/hosea/1 (777 ms)                    11.3 kB         180 kB
+├ ○ /old-testament/hosea/10 (810 ms)                   11.7 kB         181 kB
+├ ○ /old-testament/hosea/11 (914 ms)                   11.3 kB         180 kB
+├ ○ /old-testament/hosea/12 (853 ms)                   11.4 kB         180 kB
+├ ○ /old-testament/hosea/13 (758 ms)                   11.6 kB         181 kB
+├ ○ /old-testament/hosea/14 (830 ms)                   11.1 kB         180 kB
+├ ○ /old-testament/hosea/2 (760 ms)                    12 kB           181 kB
+├ ○ /old-testament/hosea/3 (837 ms)                    10.8 kB         180 kB
+├ ○ /old-testament/hosea/4 (585 ms)                    11.7 kB         181 kB
+├ ○ /old-testament/hosea/5 (629 ms)                    11.5 kB         180 kB
+├ ○ /old-testament/hosea/6 (671 ms)                    11.1 kB         180 kB
+├ ○ /old-testament/hosea/7 (687 ms)                    11.6 kB         180 kB
+├ ○ /old-testament/hosea/8 (540 ms)                    11.4 kB         180 kB
+├ ○ /old-testament/hosea/9 (632 ms)                    11.7 kB         181 kB
+├ ○ /old-testament/isaiah/1 (724 ms)                   12.6 kB         182 kB
+├ ○ /old-testament/isaiah/10 (743 ms)                  12.7 kB         182 kB
+├ ○ /old-testament/isaiah/11 (660 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/isaiah/12 (642 ms)                  10.8 kB         180 kB
+├ ○ /old-testament/isaiah/13 (698 ms)                  12 kB           181 kB
+├ ○ /old-testament/isaiah/14 (705 ms)                  12.6 kB         182 kB
+├ ○ /old-testament/isaiah/15 (708 ms)                  11.1 kB         180 kB
+├ ○ /old-testament/isaiah/16 (689 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/isaiah/17 (685 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/isaiah/18 (686 ms)                  11.1 kB         180 kB
+├ ○ /old-testament/isaiah/19 (637 ms)                  12 kB           181 kB
+├ ○ /old-testament/isaiah/2 (672 ms)                   11.7 kB         181 kB
+├ ○ /old-testament/isaiah/20 (603 ms)                  10.9 kB         180 kB
+├ ○ /old-testament/isaiah/21 (821 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/isaiah/22 (670 ms)                  12.2 kB         181 kB
+├ ○ /old-testament/isaiah/23 (620 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/isaiah/24 (815 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/isaiah/25 (774 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/isaiah/26 (883 ms)                  11.8 kB         181 kB
+├ ○ /old-testament/isaiah/27 (903 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/isaiah/28 (887 ms)                  12.5 kB         181 kB
+├ ○ /old-testament/isaiah/29 (913 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/isaiah/3 (852 ms)                   11.9 kB         181 kB
+├ ○ /old-testament/isaiah/30 (857 ms)                  13 kB           182 kB
+├ ○ /old-testament/isaiah/31 (773 ms)                  11.3 kB         180 kB
+├ ○ /old-testament/isaiah/32 (716 ms)                  11.6 kB         181 kB
+├ ○ /old-testament/isaiah/33 (805 ms)                  12.1 kB         181 kB
+├ ○ /old-testament/isaiah/34 (769 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/isaiah/35 (881 ms)                  11.2 kB         180 kB
+├ ○ /old-testament/isaiah/36 (877 ms)                  12 kB           181 kB
+├ ○ /old-testament/isaiah/37 (845 ms)                  13.1 kB         182 kB
+├ ○ /old-testament/isaiah/38 (857 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/isaiah/39 (729 ms)                  11.1 kB         180 kB
+├ ○ /old-testament/isaiah/4 (851 ms)                   11 kB           180 kB
+├ ○ /old-testament/isaiah/40 (847 ms)                  12.5 kB         181 kB
+├ ○ /old-testament/isaiah/41 (798 ms)                  12.4 kB         181 kB
+├ ○ /old-testament/isaiah/42 (834 ms)                  12.2 kB         181 kB
+├ ○ /old-testament/isaiah/43 (682 ms)                  12.2 kB         181 kB
+├ ○ /old-testament/isaiah/44 (641 ms)                  12.7 kB         182 kB
+├ ○ /old-testament/isaiah/45 (743 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/isaiah/46 (713 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/isaiah/47 (848 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/isaiah/48 (749 ms)                  12 kB           181 kB
+├ ○ /old-testament/isaiah/49 (763 ms)                  12.6 kB         182 kB
+├ ○ /old-testament/isaiah/5 (732 ms)                   12.6 kB         182 kB
+├ ○ /old-testament/isaiah/50 (787 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/isaiah/51 (746 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/isaiah/52 (832 ms)                  11.6 kB         180 kB
+├ ○ /old-testament/isaiah/53 (782 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/isaiah/54 (771 ms)                  11.7 kB         181 kB
+├ ○ /old-testament/isaiah/55 (739 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/isaiah/56 (727 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/isaiah/57 (785 ms)                  12 kB           181 kB
+├ ○ /old-testament/isaiah/58 (670 ms)                  11.8 kB         181 kB
+├ ○ /old-testament/isaiah/59 (771 ms)                  12 kB           181 kB
+├ ○ /old-testament/isaiah/6 (660 ms)                   11.4 kB         180 kB
+├ ○ /old-testament/isaiah/60 (739 ms)                  12 kB           181 kB
+├ ○ /old-testament/isaiah/61 (723 ms)                  11.5 kB         180 kB
+├ ○ /old-testament/isaiah/62 (847 ms)                  11.4 kB         180 kB
+├ ○ /old-testament/isaiah/63 (685 ms)                  11.9 kB         181 kB
+├ ○ /old-testament/isaiah/64 (741 ms)                  11.3 kB         180 kB
+├ ○ /old-testament/isaiah/65 (711 ms)                  12.3 kB         181 kB
+├ ○ /old-testament/isaiah/66 (632 ms)                  12.5 kB         181 kB
+├ ○ /old-testament/isaiah/7 (690 ms)                   12.1 kB         181 kB
+├ ○ /old-testament/isaiah/8 (694 ms)                   12 kB           181 kB
+├ ○ /old-testament/isaiah/9 (678 ms)                   12 kB           181 kB
+├ ○ /old-testament/jeremiah/1 (607 ms)                 11.6 kB         181 kB
+├ ○ /old-testament/jeremiah/10 (570 ms)                12.2 kB         181 kB
+├ ○ /old-testament/jeremiah/11 (825 ms)                12.2 kB         181 kB
+├ ○ /old-testament/jeremiah/12 (651 ms)                11.8 kB         181 kB
+├ ○ /old-testament/jeremiah/13 (639 ms)                12.3 kB         181 kB
+├ ○ /old-testament/jeremiah/14 (646 ms)                12.2 kB         181 kB
+├ ○ /old-testament/jeremiah/15 (646 ms)                12.2 kB         181 kB
+├ ○ /old-testament/jeremiah/16 (691 ms)                12 kB           181 kB
+├ ○ /old-testament/jeremiah/17 (611 ms)                12.4 kB         181 kB
+├ ○ /old-testament/jeremiah/18 (677 ms)                12.1 kB         181 kB
+├ ○ /old-testament/jeremiah/19 (673 ms)                11.7 kB         181 kB
+├ ○ /old-testament/jeremiah/2 (700 ms)                 13.1 kB         182 kB
+├ ○ /old-testament/jeremiah/20 (615 ms)                12 kB           181 kB
+├ ○ /old-testament/jeremiah/21 (627 ms)                11.6 kB         181 kB
+├ ○ /old-testament/jeremiah/22 (693 ms)                12.5 kB         181 kB
+├ ○ /old-testament/jeremiah/23 (689 ms)                13.1 kB         182 kB
+├ ○ /old-testament/jeremiah/24 (783 ms)                11.3 kB         180 kB
+├ ○ /old-testament/jeremiah/25 (813 ms)                12.9 kB         182 kB
+├ ○ /old-testament/jeremiah/26 (642 ms)                12.1 kB         181 kB
+├ ○ /old-testament/jeremiah/27 (751 ms)                11.9 kB         181 kB
+├ ○ /old-testament/jeremiah/28 (640 ms)                11.6 kB         180 kB
+├ ○ /old-testament/jeremiah/29 (792 ms)                12.5 kB         181 kB
+├ ○ /old-testament/jeremiah/3 (735 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/jeremiah/30 (694 ms)                12.2 kB         181 kB
+├ ○ /old-testament/jeremiah/31 (753 ms)                13.4 kB         182 kB
+├ ○ /old-testament/jeremiah/32 (678 ms)                13.4 kB         182 kB
+├ ○ /old-testament/jeremiah/33 (727 ms)                12.3 kB         181 kB
+├ ○ /old-testament/jeremiah/34 (669 ms)                12.1 kB         181 kB
+├ ○ /old-testament/jeremiah/35 (745 ms)                11.8 kB         181 kB
+├ ○ /old-testament/jeremiah/36 (670 ms)                12.6 kB         182 kB
+├ ○ /old-testament/jeremiah/37 (698 ms)                11.9 kB         181 kB
+├ ○ /old-testament/jeremiah/38 (630 ms)                12.4 kB         181 kB
+├ ○ /old-testament/jeremiah/39 (647 ms)                11.7 kB         181 kB
+├ ○ /old-testament/jeremiah/4 (713 ms)                 12.7 kB         182 kB
+├ ○ /old-testament/jeremiah/40 (599 ms)                11.8 kB         181 kB
+├ ○ /old-testament/jeremiah/41 (757 ms)                11.7 kB         181 kB
+├ ○ /old-testament/jeremiah/42 (517 ms)                12 kB           181 kB
+├ ○ /old-testament/jeremiah/43 (594 ms)                11.5 kB         180 kB
+├ ○ /old-testament/jeremiah/44 (601 ms)                12.8 kB         182 kB
+├ ○ /old-testament/jeremiah/45 (655 ms)                10.9 kB         180 kB
+├ ○ /old-testament/jeremiah/46 (601 ms)                12.5 kB         181 kB
+├ ○ /old-testament/jeremiah/47 (660 ms)                11 kB           180 kB
+├ ○ /old-testament/jeremiah/48 (702 ms)                13.3 kB         182 kB
+├ ○ /old-testament/jeremiah/49 (649 ms)                13.3 kB         182 kB
+├ ○ /old-testament/jeremiah/5 (598 ms)                 12.7 kB         182 kB
+├ ○ /old-testament/jeremiah/50 (603 ms)                13.8 kB         183 kB
+├ ○ /old-testament/jeremiah/51 (680 ms)                14.6 kB         184 kB
+├ ○ /old-testament/jeremiah/52 (755 ms)                12.6 kB         181 kB
+├ ○ /old-testament/jeremiah/6 (720 ms)                 12.7 kB         182 kB
+├ ○ /old-testament/jeremiah/7 (591 ms)                 12.6 kB         182 kB
+├ ○ /old-testament/jeremiah/8 (650 ms)                 12.2 kB         181 kB
+├ ○ /old-testament/jeremiah/9 (667 ms)                 12.4 kB         181 kB
+├ ○ /old-testament/job/1 (523 ms)                      11.9 kB         181 kB
+├ ○ /old-testament/job/10 (667 ms)                     11.5 kB         180 kB
+├ ○ /old-testament/job/11 (638 ms)                     11.4 kB         180 kB
+├ ○ /old-testament/j
